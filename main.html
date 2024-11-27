@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="conteiner">
+    <h1 style="margin-top:0px ;"> EBAC Numeros</h1>
+    <h2>Insira os numeros abaixo:</h2>
+    <form id="FormularioV"><ul>
+        <label>Valor de A:</label>
+        <li><input id="numero-a" type="number" inputmode="numeric" placeholder="Campo A" /></li>
+        <li><p id="Mensagems"> </p></li>
+        <label>Valor de B:</label>
+        <li><input id="numero-b" type="number" placeholder="Campo B" /></li>
+        <li    style="display: flex;justify-content: space-around;">
+            <input  style="padding-left:10px; padding-right: 10px;" id="bto-sub" type="submit" name="bto-verificar" value="Enviar" /></li>
+       <li  style="display: flex;justify-content: space-around;">
+        <input  style="padding-left:10px; padding-right: 10px;" id="Limpar" type="button" value="Limpar" onclick="Limpa()" /></li>
+    </ul>
+    </form>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
